@@ -15,7 +15,7 @@ const fetch_carts = async (req, res)=>
     }
 };
 
-// Insert a cart item
+
 const insert_cart_item = async (req, res) => 
 {
     const cartItem = new Cart({
@@ -37,7 +37,7 @@ const insert_cart_item = async (req, res) =>
     }
 };
 
-// Update a cart item
+
 const update_cart_item = async (req, res) => {
     const { pizza_id, cust_name, quantity } = req.body;
     const cartUpdate = {
@@ -60,7 +60,7 @@ const update_cart_item = async (req, res) => {
     }
 };
 
-// Delete a cart item
+
 const delete_cart_item = async (req, res) => {
     const { pizza_id, cust_name } = req.body;
     try {

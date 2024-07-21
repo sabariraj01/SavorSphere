@@ -1,8 +1,6 @@
-/* styles.css */
-
 body {
     background-color: #1a1a1a; 
-    color: #fff; /* White text for readability */
+    color: #fff; 
 }
 
 .container {
@@ -11,21 +9,21 @@ body {
 }
 
 .jumbotron {
-    background-color: #1a1a1a; /* Dark background */
-    color: #ffd700; /* Gold text */
-    border: 2px solid #ffd700; /* Gold border */
+    background-color: #1a1a1a; 
+    color: #ffd700;
+    border: 2px solid #ffd700; 
 }
 
 h1.display-4 {
-    color: #ff0000; /* Vibrant red for main heading */
+    color: #ff0000; 
 }
 
 .lead {
-    color: #ff0000; /* Vibrant red for subheading */
+    color: #ff0000; 
 }
 
 h2 {
-    color: #ffd700; /* Gold headings */
+    color: #ffd700;
 }
 
 ul {
@@ -35,7 +33,7 @@ ul {
 
 ul li {
     padding: 5px 0;
-    border-bottom: 1px solid #ff0000; /* Red underline for list items */
+    border-bottom: 1px solid #ff0000;
 }
 
 section {
@@ -43,10 +41,10 @@ section {
 }
 
 a {
-    color: #ffd700; /* Gold links */
+    color: #ffd700;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff0000; /* Red on hover */
+    color: #ff0000; 
 }

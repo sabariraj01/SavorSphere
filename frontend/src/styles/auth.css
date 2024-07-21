@@ -1,5 +1,3 @@
-/* styles.css */
-
 .container {
     margin-top: 50px;
 }
@@ -10,28 +8,28 @@
 }
 
 .bg-dark {
-    background-color: #1c1c1c !important; /* Dark background for cards */
-    color: #FFD700 !important; /* Gold text for cards */
+    background-color: #1c1c1c !important; 
+    color: #FFD700 !important; 
 }
 
 .text-gold {
-    color: #FFD700 !important; /* Gold text */
+    color: #FFD700 !important; 
 }
 
 .btn-gold {
-    background-color: #FFD700 !important; /* Gold button */
-    color: #000 !important; /* Black text */
+    background-color: #FFD700 !important; 
+    color: #000 !important;
     border: none;
 }
 
 .btn-gold:hover {
-    background-color: #cca700 !important; /* Darker gold on hover */
+    background-color: #cca700 !important; 
 }
 
 .btn-link.text-gold {
-    color: #FFD700 !important; /* Gold text for link buttons */
+    color: #FFD700 !important;
 }
 
 .btn-link.text-gold:hover {
-    color: #cca700 !important; /* Darker gold on hover for link buttons */
+    color: #cca700 !important;
 }

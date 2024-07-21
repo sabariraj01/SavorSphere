@@ -1,6 +1,6 @@
 const Pizza = require('../model/pizzaModel.js');
 
-// Fetch all pizzas
+
 const pizzas_all = async (req, res) => {
     try {
         const pizzas = await Pizza.find();
@@ -12,7 +12,7 @@ const pizzas_all = async (req, res) => {
     }
 };
 
-// Insert a pizza
+
 const insert_pizza = async (req, res) => {
     const pizza = new Pizza({
         pizza_id: req.body.pizza_id,
@@ -31,7 +31,7 @@ const insert_pizza = async (req, res) => {
     }
 };
 
-// Update a pizza
+
 const update_pizza = async (req, res) => {
     const pizza_id = req.body.pizza_id;
     const pizzaUpdates = {
@@ -55,7 +55,7 @@ const update_pizza = async (req, res) => {
     }
 };
 
-// Delete a pizza
+
 const delete_pizza = async (req, res) => {
     const pizza_id = req.body.pizza_id;
     try {

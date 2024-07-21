@@ -1,6 +1,5 @@
 const Cust = require('../model/custModel');
 
-// Fetch all customers
 const fetch_customers = async (req, res) => {
     try {
         const customers = await Cust.find();
@@ -13,7 +12,6 @@ const fetch_customers = async (req, res) => {
     }
 };
 
-// Insert a customer
 const insert_customer = async (req, res) => {
     const customer = new Cust({
         cust_name: req.body.cust_name,
@@ -32,7 +30,6 @@ const insert_customer = async (req, res) => {
     }
 };
 
-// Update a customer
 const update_customer = async (req, res) => {
     const cust_email = req.body.cust_email;
     const customerUpdate = {
@@ -57,7 +54,6 @@ const update_customer = async (req, res) => {
     }
 };
 
-// Delete a customer
 const delete_customer = async (req, res) => {
     const cust_email = req.body.cust_email;
     try {

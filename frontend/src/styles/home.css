@@ -2,18 +2,16 @@
     margin-top: 50px;
 }
 
-/* Jumbotron styles */
 .jumbotron {
-    background-color: #4343437b; /* Gold */
-    color: #000000; /* Black */
+    background-color: #4343437b; 
+    color: #000000; 
     padding: 2rem;
     border-radius: 10px;
 }
 
-/* Card styles */
 .card {
-    background-color: #1c1c1c; /* Dark background for cards */
-    color: #FFD700; /* Gold text for cards */
+    background-color: #1c1c1c; 
+    color: #FFD700;
     border: none;
 }
 
@@ -23,34 +21,33 @@
 }
 
 .card-title {
-    color: #FF0000; /* Red for card titles */
+    color: #FF0000; 
     font-weight: bold;
 }
 
 .card-text {
-    color: #FFFFFF; /* White for card text */
+    color: #FFFFFF; 
 }
 
 .btn-primary {
-    background-color: #FF0000; /* Red for buttons */
+    background-color: #FF0000; 
     border-color: #FF0000;
 }
 
 .btn-primary:hover {
-    background-color: #cc0000; /* Darker red on hover */
+    background-color: #cc0000; 
     border-color: #cc0000;
 }
 
-/* Navbar styles */
 .navbar {
-    background-color: #000; /* Black navbar */
-    color: #FFD700; /* Gold text */
+    background-color: #000; 
+    color: #FFD700; 
 }
 
 .nav-link {
-    color: #FFD700; /* Gold links */
+    color: #FFD700; 
 }
 
 .nav-link:hover {
-    color: #FF0000; /* Red on hover */
+    color: #FF0000; 
 }

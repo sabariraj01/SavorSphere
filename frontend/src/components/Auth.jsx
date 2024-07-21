@@ -60,7 +60,7 @@ const Auth = ({ setIsAuthenticated }) => {
                 setIsAuthenticated(true);
                 sessionStorage.setItem('userToken', email);
                 sessionStorage.setItem('name', user.cust_name);
-                navigate('/'); //pizza earlier here was there
+                navigate('/'); 
             } else {
                 alert('Invalid email or password. Please try again.');
             }

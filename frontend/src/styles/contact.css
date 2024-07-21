@@ -1,59 +1,53 @@
-/* styles.css */
-
-/* Container styles */
 .container {
     margin-top: 50px;
 }
 
-/* Jumbotron styles */
 .jumbotron {
-    background-color: #FFD700; /* Gold */
-    color: #000; /* Black */
+    background-color: #FFD700; 
+    color: #000; 
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
-/* Form styles */
 .form-floating input[type=text],
 .form-floating input[type=email],
 .form-floating textarea {
-    background-color: #000000; /* Red */
-    border-color: #FF6347; /* Red */
-    color: #fff; /* White */
+    background-color: #000000; 
+    border-color: #FF6347; 
+    color: #fff; 
 }
 
 .form-floating label {
-    color: #FFD700; /* Gold */
+    color: #FFD700; 
 }
 
 .form-floating input[type=text]::placeholder,
 .form-floating input[type=email]::placeholder,
 .form-floating textarea::placeholder {
-    color: #fff; /* White */
+    color: #fff; 
     opacity: 0.5;
 }
 
 .form-floating input[type=text]:focus,
 .form-floating input[type=email]:focus,
 .form-floating textarea:focus {
-    background-color: #000000; /* Red */
-    border-color: #ff0000; /* Gold */
-    box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.669); /* Gold shadow on focus */
+    background-color: #000000; 
+    border-color: #ff0000; 
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.669); 
 }
 
 .form-floating textarea {
-    resize: none; /* Prevent resizing of textarea */
+    resize: none; 
 }
 
-/* Submit button styles */
 .btn-primary {
-    background-color: #FF6347; /* Red */
-    border-color: #FF6347; /* Red */
+    background-color: #FF6347;
+    border-color: #FF6347; 
 }
 
 .btn-primary:hover {
-    background-color: #FFD700; /* Gold */
-    border-color: #FFD700; /* Gold */
-    color: #000; /* Black */
+    background-color: #FFD700;
+    border-color: #FFD700;
+    color: #000; 
 }
