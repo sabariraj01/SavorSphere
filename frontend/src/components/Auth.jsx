@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import '../styles/auth.css';
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://savorsphere.onrender.com';
 
 const Auth = ({ setIsAuthenticated }) => {
     const [isLogin, setIsLogin] = useState(true);

@@ -23,7 +23,7 @@ app.use("/cart", cartRoutes);
 
 
 connectDB()
-const port = 8080 || process.env.PORT;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
