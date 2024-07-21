@@ -23,9 +23,45 @@ SavorSphere is a luxurious and User-friendly pizza ordering application built us
 - **Other Libraries**: Axios, React Router, React Multi Carousel
 
 ## 🛠 Installation and Setup
-**Clone the repository** 
+- **Clone the repository** 
         
 ```bash
 git clone https://github.com/yourusername/SavorSphere.git
 cd SavorSphere
+```
+
+- **Install backend dependencies**
+
+```bash
+cd backend
+npm install
+```
+
+- **Install frontend dependencies**
+
+```bash
+cd ../frontend
+npm install
+```
+
+- **Set up environment variables**
+Create a .env file in the backend directory and add your MongoDB URI and any other necessary environment variables.
+
+```bash
+MONGODB_URI=your_mongodb_uri
+PORT=8080
+```
+
+- **Run the backend server**
+
+```bash
+cd backend
+npm start
+```
+
+- **Run the frontend server**
+
+```bash
+cd frontend
+npm start
 ```
