@@ -1,14 +1,14 @@
 # 🍕 SavorSphere 🍕
 
-**Home Page**
+**🏠 Home Page**
 
 ![image](https://github.com/user-attachments/assets/6f68f8bf-1755-4f6f-ba20-69526b98fbf5)
 
-**Pizza Page**
+**🍕 Pizza Page**
 
 ![image](https://github.com/user-attachments/assets/5e2849f4-a308-4db3-8d09-3ef7e0ecfbd2)
 
-**Cart Page**
+**🛒 Cart Page**
 
 ![image](https://github.com/user-attachments/assets/17a6389c-ecec-46ae-aa58-e89ead104d07)
 
@@ -90,7 +90,7 @@ npm start
 Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
 ## 📜License
-This project is licensed under the 
+This project is licensed under the [MIT](LICENSE)
 
 ## 🔗 SavorSphere Link 🔗 
 ✨ https://savor-sphere.web.app/ ✨
