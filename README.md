@@ -1,10 +1,15 @@
 # 🍕 SavorSphere 🍕
 
 **Home Page**
+
 ![image](https://github.com/user-attachments/assets/6f68f8bf-1755-4f6f-ba20-69526b98fbf5)
+
 **Pizza Page**
+
 ![image](https://github.com/user-attachments/assets/5e2849f4-a308-4db3-8d09-3ef7e0ecfbd2)
+
 **Cart Page**
+
 ![image](https://github.com/user-attachments/assets/17a6389c-ecec-46ae-aa58-e89ead104d07)
 
 ## 📋Project Overview
