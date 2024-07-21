@@ -1,0 +1,120 @@
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+    color: #EAEAEA;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #333333 !important;
+    border-bottom: 2px solid #FFD700;
+    padding: 15px;
+  }
+  
+  .navbar-brand {
+    color: #FFD700 !important;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-right: 15px;
+    transition: color 0.3s;
+    color: #EAEAEA !important;
+    font-size: 18px;
+}
+
+.button-logout:hover
+{
+  color: #ff0000 !important;
+}
+
+.loginName
+{
+  color:red !important;
+}
+  
+  .navbar-nav .nav-link {
+    color: #EAEAEA !important;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff0000 !important;
+  }
+  
+  .jumbotron {
+    background-color: #FFD700;
+    color: #333333;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .jumbotron h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron p {
+    font-size: 20px;
+  }
+  
+  .container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-primary {
+    background-color: #B22222;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #FFD700;
+  }
+  
+  .form-control {
+    background-color: #2C2C2C;
+    border: 1px solid #B22222;
+    color: #EAEAEA;
+  }
+  
+  .form-control:focus {
+    border-color: #FFD700;
+    box-shadow: none;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: #EAEAEA;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #B22222;
+  }
+
+  ul li{
+    border: none;
+  }
+
+

@@ -18,12 +18,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
 
 app.use("/custs", custRoutes); 
-app.use("/pizzas", pizzaRoutes);
+app.use("/pizza", pizzaRoutes);
 app.use("/cart", cartRoutes);
 
 
 connectDB()
-const port = process.env.PORT || 8080;
+const port = 8080 || process.env.PORT;
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });

@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    background-color: #1a1a1a; 
+    color: #fff; /* White text for readability */
+}
+
+.container {
+    color: #fff;
+    text-align: center; 
+}
+
+.jumbotron {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffd700; /* Gold text */
+    border: 2px solid #ffd700; /* Gold border */
+}
+
+h1.display-4 {
+    color: #ff0000; /* Vibrant red for main heading */
+}
+
+.lead {
+    color: #ff0000; /* Vibrant red for subheading */
+}
+
+h2 {
+    color: #ffd700; /* Gold headings */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ff0000; /* Red underline for list items */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #ffd700; /* Gold links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0000; /* Red on hover */
+}

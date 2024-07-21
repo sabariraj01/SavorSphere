@@ -1,0 +1,37 @@
+/* styles.css */
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.bg-dark {
+    background-color: #1c1c1c !important; /* Dark background for cards */
+    color: #FFD700 !important; /* Gold text for cards */
+}
+
+.text-gold {
+    color: #FFD700 !important; /* Gold text */
+}
+
+.btn-gold {
+    background-color: #FFD700 !important; /* Gold button */
+    color: #000 !important; /* Black text */
+    border: none;
+}
+
+.btn-gold:hover {
+    background-color: #cca700 !important; /* Darker gold on hover */
+}
+
+.btn-link.text-gold {
+    color: #FFD700 !important; /* Gold text for link buttons */
+}
+
+.btn-link.text-gold:hover {
+    color: #cca700 !important; /* Darker gold on hover for link buttons */
+}

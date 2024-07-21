@@ -1,0 +1,81 @@
+.container {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #d9534f; /* Vibrant red for headings */
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.card img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card h4 {
+    color: #333;
+    margin-top: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #d9534f; /* Vibrant red for buttons */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card button:hover {
+    background-color: #c9302c; /* Slightly darker red for hover effect */
+}
+
+.card .btn-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.card .btn-link:hover {
+    text-decoration: underline;
+}
+
+.card .desc {
+    max-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-info {
+    color: #5bc0de;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
