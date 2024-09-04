@@ -1,5 +1,7 @@
-# 🍕 SavorSphere 🍕
+# 🍕 SavorSphere 🍕  
+**SavorSphere** is a luxurious and user-friendly pizza ordering web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). It provides customers with a seamless experience to browse, order, and manage their favorite pizzas.
 
+## 🖼 Sample Images
 **🏠 Home Page**
 
 ![image](https://github.com/user-attachments/assets/6f68f8bf-1755-4f6f-ba20-69526b98fbf5)
@@ -12,87 +14,137 @@
 
 ![image](https://github.com/user-attachments/assets/17a6389c-ecec-46ae-aa58-e89ead104d07)
 
-## 📋Project Overview
-SavorSphere is a luxurious and User-friendly pizza ordering application built using the MERN stack. It allows customers to browse a variety of pizzas, add them to their cart, and place orders. The app features a login system and displays the customer's name in the navbar after logging in.
 
-## 🌟Features
-- **Home** : Welcome page with an overview of the pizza offerings.
-- **About** : Information about SavorSphere.
-- **Contact** : Form to get in touch with the team.
-- **Pizzas** : Browse different categories of pizzas.
-- **Cart** : View and manage items in the cart.
-- **User Authentication** : Login and logout functionality.
-- **Customer Name Display** : Shows the customer's name in the navbar after login.
+## 📑 Table of Contents
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Setup and Installation](#️-setup-and-installation)
+- [Usage](#-usage)
+- [API Endpoints](#-api-endpoints)
+- [Sample Images](#-sample-images)
+- [Contribution](#-contribution)
+- [License](#-license)
 
-## 📦Technologies Used
-- **Frontend** : React, CSS
-- **Backend** : Node.js, Express.js
-- **Database** : MongoDB
-- **Other Libraries** : Axios, React Router, React Multi Carousel, fontAwesome
+## 🎯 Features
+### 1. **🔐 User Authentication & Session Management**
+- **Login & Registration**: Users can securely sign up and log in using their email, password, and other credentials. Session management is handled using **session storage**, ensuring user state persistence across the app.
+- **Password Security**: Passwords are encrypted using **bcrypt** for secure storage.
+- **Session-Based Authentication**: The app uses session storage for managing user authentication and authorization, ensuring user-specific actions like cart management.
 
-## 🛠Installation and Setup
-- **Clone the repository** 
-        
-```bash
-git clone https://github.com/yourusername/SavorSphere.git
-cd SavorSphere
-```
+### 2. **🍕 Pizza Catalog**
+- **Dynamic Pizza Listing**: Displays categorized pizzas (e.g., Vegetarian, Non-Vegetarian, Vegan) using a responsive carousel.
+- **Real-time Data Fetching**: Pizzas are fetched from the backend and displayed in the UI with descriptions, images, and prices.
 
-- **Install backend dependencies**
+### 3. **🛒 Shopping Cart**
+- **Add/Update/Remove Pizzas**: Users can add pizzas to their cart, adjust quantities, or remove items. Cart updates are instantly reflected in the frontend and backend.
+- **Cart Persistence**: The cart is user-specific, and the state is maintained using session tokens.
 
-```bash
-cd backend
-npm install
-```
+### 4. **📦 Order Management**
+- **CRUD Operations**: Users can perform Create, Read, Update, and Delete operations on cart items and pizzas.
+- **Cart Total Calculation**: The total price is dynamically calculated based on the number of items in the cart.
 
-- **Install frontend dependencies**
+### 5. **🖥 Backend API**
+- **RESTful API**: The backend provides various endpoints to interact with pizzas, cart, and customers.
 
-```bash
-cd ../frontend
-npm install
-```
+### 6. **📂 Database & Models**
+- **MongoDB with Mongoose**: All pizza, cart, and customer data is stored in **MongoDB**, with **Mongoose** used for schema definition and interaction.
 
-- **Set up environment variables**
-Create a .env file in the backend directory and add your MongoDB URI and any other necessary environment variables.
+## 🛠 Tech Stack
+### 1. **Frontend**
+- **React.js**: Used for creating dynamic UI components and managing state with hooks.
+- **Axios**: For making HTTP requests to the backend.
+- **Bootstrap**: Provides styling and responsive design for a polished UI.
 
-```bash
-MONGODB_URI=your_mongodb_uri
-PORT=8080
-```
+### 2. **Backend**
+- **Node.js & Express.js**: Handles routing, middleware, and API endpoint creation.
+- **Mongoose**: ORM for MongoDB, defining schemas for Pizza, Cart, and Customer models.
 
-- **Run the backend server**
+### 3. **Security**
+- **Helmet.js**: Ensures the app is secured with HTTP headers.
+- **CORS**: Configured to allow secure cross-origin resource sharing.
 
-```bash
-cd backend
-npm start
-```
+### 4. **APIs**
+- **Cart API**: Manages adding, updating, and deleting items in the user’s cart.
+- **Pizza API**: Handles pizza CRUD operations.
+- **Customer API**: Manages customer-related operations such as login, registration, and updating customer details.
 
-- **Run the frontend server**
+### 5. **Database**
+- **MongoDB Atlas**: Remote database for storing customer, pizza, and cart data.
 
-```bash
-cd frontend
-npm start
-```
+## ⚙️ Setup and Installation
+### Prerequisites
+- **Node.js** (v12 or higher)
+- **MongoDB** (local or Atlas)
 
-## ⚙️Customization
-**Logo and Favicon** : Replace the logo and favicon in the public/ directory.
-**Content** : Update content in the React components within the src/ directory.
-**Styles** : Customize styles in the src/styles/ directory.
+### Installation Steps
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/sabariraj01/SavorSphere.git
+    cd SavorSphere
+    ```
 
-## 📂Usage
-**Home** : General information and welcome message.
-**About** : Detailed background information.
-**Contact** : Form for visitors to get in touch.
-**Pizzas** : Browse different categories of pizzas.
-**Cart** : View and manage items in the cart.
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## 🤝Contributing
-Feel free to fork the repository and submit pull requests. Contributions are welcome!
+3. Set up MongoDB:
+   - Use a local MongoDB instance or connect to MongoDB Atlas.
+   - Update the `.env` file with the MongoDB URI and desired port:
+     ```bash
+     MONGO_URL=your_mongodb_uri
+     PORT=3000
+     ```
 
-## 📜License
-This project is licensed under the [MIT](LICENSE)
+4. Run the server:
+    ```bash
+    npm start
+    ```
 
-## 🔗 SavorSphere Link 🔗 
-✨ https://savor-sphere.web.app/ ✨
+5. Run the frontend:
+    Navigate to the frontend folder and start the React app:
+    ```bash
+    cd frontend
+    npm start
+    ```
+
+6. Open your browser at `http://localhost:3000` to view the app.
+
+## 🚀 Usage
+1. **Login or Register**: Users can log in or create an account to start ordering pizzas.
+2. **Browse Pizzas**: Explore a dynamic, categorized list of pizzas. Add them to your cart based on preferences.
+3. **Manage Cart**: Increase or decrease the quantity of items, or remove them from the cart.
+4. **Place an Order**: After finalizing the cart, users can proceed with placing an order (future enhancement).
+
+## 📡 API Endpoints
+
+### Cart Endpoints
+- **GET** `/cart/fetch`: Fetch all items in the cart.
+- **POST** `/cart/insert`: Add a new item to the cart.
+- **PUT** `/cart/update`: Update an item in the cart.
+- **DELETE** `/cart/delete`: Remove an item from the cart.
+
+### Pizza Endpoints
+- **GET** `/pizza/fetch`: Fetch all available pizzas.
+- **POST** `/pizza/insert`: Add a new pizza.
+- **PUT** `/pizza/update`: Update pizza details.
+- **DELETE** `/pizza/delete`: Delete a pizza.
+
+### Customer Endpoints
+- **GET** `/custs/fetch`: Fetch customer data.
+- **POST** `/custs/insert`: Register a new customer.
+- **PUT** `/custs/update`: Update customer details.
+- **DELETE** `/custs/delete`: Delete a customer.
 
 
+
+## 🤝 Contribution
+Contributions are welcome! Please follow these steps:
+1. Fork the project.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
+
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
